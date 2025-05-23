@@ -1,0 +1,28 @@
+<html>
+<body>   
+    <h1>Test Website</h1>
+    <h2>welcome to my test website where you do nothing so far</h2>
+<body>
+<hmtl>
+<link rel="stylesheet" href="Home.css">
+<link rel="stylesheet" href="Home.js">
+<link rel="stylesheet" href="images/Untitled design (4).png">
+<div class="dropdown">
+    <button onclick="toggleDropdown()" class="dropbtn"><img src="images/Untitled design (7).png" width="100" height="100"></button>
+    <div id="dropdownContent" class="dropdown-content">
+    <a href="AboutUs.html"><img src="images/Untitled design (6).png" width="70" height="70"></a>
+    <a href="Home.html"><img src="images/Untitled design (5).png" width="50" height="50"></a>
+    <a href="#">Link 3</a>
+    </div>  
+    </div>
+  </div>
+  <script>
+  function toggleDropdown() {
+    const content = document.getElementById("dropdownContent");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  }
+  </script>
